@@ -1,0 +1,35 @@
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  .brand-text {
+    color: #007bff;
+  }
+  
+  .feature-list {
+    padding-left: 1rem;
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  
+  .feature-list li {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  /* Simple animation */
+  .animated-img {
+    animation: float 3s ease-in-out infinite;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+  
